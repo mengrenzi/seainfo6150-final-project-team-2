@@ -1,0 +1,60 @@
+.container {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: Crimson Text, serif;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 6rem;
+    text-align: center;
+}
+
+.table {
+    align-items: center;
+    font-size: x-large;
+    padding: 40px;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: center;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55;
+}
+
+th .view-availability-img{
+    max-height: 400px;
+    max-width: 400px;
+}
+
+h2 {
+    padding: 10px;
+    margin-bottom: auto;
+}

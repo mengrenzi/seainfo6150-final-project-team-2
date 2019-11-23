@@ -1,0 +1,18 @@
+.error{
+	margin-top: 70px;
+	height: 510px;
+	display: flex;
+  flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+.errorHead{
+	color: #FF0000;
+	font-size: 40px;
+}
+
+.errorTip{
+	color: #665c5c;
+	font-size: 20px;
+}

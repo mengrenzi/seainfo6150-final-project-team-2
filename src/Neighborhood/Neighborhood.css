@@ -1,0 +1,98 @@
+.separtedSection {
+    display: flex;
+    background-color: #fff;
+    overflow: hidden;
+    color: #4d443d;
+    font: 1.75rem/2 Roboto, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.mapSection {
+    width: 50%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.linkSection {
+    width: 50%;
+    position: fixed;
+    right: 0;
+    height: 100%;
+    display: flex;
+    min-height: 800px;
+}
+
+.linkInnerSection {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 5rem 5rem 12rem 10rem;
+    overflow: hidden;
+}
+
+.galleryItem {
+    display: block;
+    border-bottom: 1rem solid white;
+    position: relative;
+    opacity: 1;
+}
+
+.description {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    max-width: 380px;
+    font-family: Crimson Text, serif;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.pageNavigationUl {
+    margin: 0;
+    padding: 0;
+}
+
+.pageNavigationLi {
+    transition: opacity 0.3s ease-in-out;
+    list-style: none;
+    padding-left: 2rem;
+    border-left: 2px solid #4d443d;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+h1 {
+    font-size: 8rem;
+    font-family: Crimson Text, serif;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 0 0.5em;
+    color: inherit;
+    margin-bottom: 1rem;
+}
+
+p {
+    display: block;
+    margin: 0 0 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    display: block;
+}

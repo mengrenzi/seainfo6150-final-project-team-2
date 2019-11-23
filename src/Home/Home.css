@@ -1,0 +1,34 @@
+.home-image {
+    background-size: cover;
+    background-position: center center;
+    max-height: 600px;
+}
+
+.home-image img {
+    width: 100%;
+    height: 600px;
+}
+
+.home-content {
+    padding: 20px 40px;
+    background-color: peru;
+}
+
+.home-image1 {
+    background-color: burlywood;
+}
+
+.home-image1 img {
+    width: 100%;
+    height: 600px;
+}
+
+.home-content1 {
+    padding: 20px 40px;
+    background-color: burlywood;
+}
+
+.home-image2 img {
+    width: 100%;
+    height: 600px;
+}

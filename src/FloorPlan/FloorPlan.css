@@ -1,0 +1,31 @@
+.floor-plan-section {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 30px;
+    min-width: 500px;
+    max-width: 950px;
+}
+
+.floor-plan-item {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    padding: 40px;
+}
+
+.floor-plan-img {
+    height: 160px;
+    padding-top: 0;
+}
+
+.floorList {
+    padding-left: 20px;
+    line-height: 30px;
+    color: #003399;
+}
+
+p {
+    margin: auto;
+}
