@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from './About.module.css';
+import { Redirect, Link } from "react-router-dom";
+
+
 
 const About = () => (
   <div>
@@ -11,17 +14,25 @@ const About = () => (
       <img className={styles.img} src="/images/AboutUs.png" alt='aboutus'/>
 
       <div className={styles.container}>
-      <p> Leina K.<br/>
+      <p><div className={styles.name}> <Link to="/About/Leina">Leina K.</Link></div>
       Community Manager</p>
 
-        <p>Jason M.<br/>
-      Leasing Team</p>
+    <img className={styles.img1} src = {styles.img} src="/images/person1.jpg" alt="Leina K."/>
 
-      <p>  Monika M.<br/>
+      <p><div className={styles.name}><Link to="/About/Jason">Jason M.</Link></div>
       Leasing Team</p>
+    <img className={styles.img1} src = {styles.img} src="/images/person2.jpg" alt="Jason M."/>
 
-    <p> Joy K.<br/>
-      Leasing Team</p></div>
+
+      <p><div className={styles.name}><Link to="/About/Monica">Monica M.</Link></div>
+      Leasing Team</p>
+      <img className={styles.img1} src = {styles.img} src="/images/person3.jpeg" alt="Monika M."/>
+
+      <p><div className={styles.name}><Link to="/About/Joy">Joy Z.</Link></div>
+      Leasing Team</p>
+    <img className={styles.img1} src = {styles.img} src="/images/person4.jpeg" alt="Joy Z."/>
+
+    </div>
       </article>
     </div>
 

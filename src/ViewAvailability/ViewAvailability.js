@@ -6,28 +6,28 @@ import {Link} from "react-router-dom";
 const mockData = [
     {
         "imgUrl": "https://jacksonsquareliving.com/wp-content/uploads/2015/07/Jackson-Square-Floor-Plan-E-800.jpg",
-        "unit": "303",
+        "unit": "310",
         "size": "840 square feet",
         "type": "1 beds 1 bath",
         "Availability": "11/01/2019"
     },
     {
         "imgUrl": "https://jacksonsquareliving.com/wp-content/uploads/2015/07/Jackson-Square-Floor-Plan-W-800.jpg",
-        "unit": "313",
+        "unit": "410",
         "size": "990 square feet",
         "type": "1 beds 1 bath",
         "Availability": "11/08/2019"
     },
     {
         "imgUrl": "https://theoverlookonprospect.com/wp-content/uploads/2015/06/N-2-bed-1-bath-994.png",
-        "unit": "323",
+        "unit": "212",
         "size": "1000 square feet",
         "type": "2 beds 1 bath",
         "Availability": "11/20/2019"
     },
     {
         "imgUrl": "https://theoverlookonprospect.com/wp-content/uploads/2015/06/O-2-bed-1-bath-1000.png",
-        "unit": "333",
+        "unit": "715",
         "size": "1,200 square feet",
         "type": "2 beds 2 bath",
         "Availability": "11/23/2019"

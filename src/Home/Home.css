@@ -1,4 +1,5 @@
 .home-image {
+    margin-top: 1%;
     background-size: cover;
     background-position: center center;
     max-height: 600px;
@@ -10,8 +11,10 @@
 }
 
 .home-content {
+    position: relative;
     padding: 20px 40px;
     background-color: peru;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .home-image1 {
@@ -24,11 +27,58 @@
 }
 
 .home-content1 {
+    position: relative;
     padding: 20px 40px;
     background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .home-image2 img {
     width: 100%;
     height: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    .home-image img {
+        width: 50%;
+        height: 300px;
+    }
+    .home-image1 img {
+        width: 50%;
+        height: 300px;
+    }
+    .home-image2 img {
+        width: 50%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home-image img {
+        width: 66%;
+        height: 400px;
+    }
+    .home-image1 img {
+        width: 66%;
+        height: 400px;
+    }
+    .home-image2 img {
+        width: 66%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .home-image img {
+        width: 100%;
+        height: 600px;
+    }
+    .home-image1 img {
+        width: 100%;
+        height: 600px;
+    }
+    .home-image2 img {
+        width: 66%;
+        height: 400px;
+    }
 }

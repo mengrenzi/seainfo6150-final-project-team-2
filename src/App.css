@@ -1,5 +1,8 @@
 .main-app {
-  padding: 5px 100px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .logo{
@@ -19,4 +22,7 @@
 .nav-bar a {
   padding: 0 15px;
   color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bold;
 }
