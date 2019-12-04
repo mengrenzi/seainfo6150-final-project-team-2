@@ -13,7 +13,7 @@ const ThankYou = () => (
 
       <div className={styles.container}>
         </div>
-        <p> Thank you for applying!</p>
+        <p> Thank you!</p>
     </div>
 
   </div>
