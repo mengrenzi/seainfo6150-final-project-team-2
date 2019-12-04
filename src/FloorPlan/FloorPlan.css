@@ -50,6 +50,8 @@
     .floor-plan-section {
         padding: 30px;
         grid-gap: 50px;
+        display: inline-grid;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -61,6 +63,8 @@
     .floor-plan-section {
         padding: 45px;
         grid-gap: 66px;
+        display: inline-grid;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -72,5 +76,7 @@
     .floor-plan-section {
         grid-gap: 60px;
         padding: 100px;
+        display: inline-grid;
+        grid-template-columns: 1fr;
     }
 }

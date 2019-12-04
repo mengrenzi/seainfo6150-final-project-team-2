@@ -57,3 +57,14 @@ h2 {
     padding: 10px;
     margin-bottom: auto;
 }
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    th .view-availability-img{
+        max-height: 150px;
+        max-width: 150px;
+    }
+}

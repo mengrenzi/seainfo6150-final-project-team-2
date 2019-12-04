@@ -58,7 +58,6 @@ const Apply = () => (
              <p>
                <input type="checkbox" name="Preferred Model"/> Model A
               </p>
-
               <p>
                <input type="checkbox" name="Preferred Model"/> Model B
               </p>

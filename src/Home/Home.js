@@ -30,6 +30,12 @@ const Home = () => {
             <div className="home-image2">
                 <img src="/images/home2.jpg" alt="homeImg2" />
             </div>
+            <div className = "contactInfo">
+                Our Location: 401 Ave, Seattle, WA, 98109<br/>
+                Operation Hours: 9am to 5pm <br/>
+                Phone Number: (111)123-4567<br/>
+            </div>
+
         </div>
     )
 }

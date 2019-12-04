@@ -37,7 +37,15 @@
     width: 100%;
     height: 600px;
 }
-
+.contactInfo{
+    margin-top:1.5em;
+    text-align: center;
+    font-size:15px;
+    color: #665c5c;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  
 @media screen and (max-width: 600px) {
     .home-image img {
         width: 50%;

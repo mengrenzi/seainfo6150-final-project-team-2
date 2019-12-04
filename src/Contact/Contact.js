@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Contact.module.css';
+import {Link} from "react-router-dom";
 
 const Contact = () => (
   <div>
@@ -28,7 +29,9 @@ const Contact = () => (
           <textarea placeholder='...' />
         </div>
         <div>
-          <button className={styles.button} type="button">Submit</button>
+          <button className={styles.button} type="button">
+          <Link to={"/thankyou"}>Submit</Link>
+            </button>
         </div>
       </form>
     </div>
