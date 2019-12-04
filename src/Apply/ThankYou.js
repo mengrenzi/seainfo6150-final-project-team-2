@@ -8,14 +8,12 @@ const ThankYou = () => (
     <div className={styles.title}>
       <span className={styles.title}></span>
     </div>
-    <div className = {styles.textarea}>
-      <article className = {styles.article}>
-      {/* <img className={styles.img} src="/images/ThankYou.jpg" alt='thankyou'/> */}
+      <div className = {styles.article}>
+      <img className={styles.img} src="/images/ThankYou.jpg" alt='thankyou'/>
 
       <div className={styles.container}>
-        <p> Thanks!</p>
         </div>
-      </article>
+        <p> Thank you for applying!</p>
     </div>
 
   </div>
